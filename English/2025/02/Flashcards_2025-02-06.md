@@ -36,3 +36,13 @@ To advance is to go forward.
 **Example**: His swimming abilities let him cross the entire lake.
 
 ---
+
+## 2025-02-06 15:15:09 - ability
+**Definition**: Ability is the quality of a person being able to do something well.
+
+![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/ability_20250206151509.jpg)
+
+
+**Example**: His swimming abilities let him cross the entire lake.
+
+---

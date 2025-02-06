@@ -46,3 +46,13 @@ To advance is to go forward.
 **Example**: His swimming abilities let him cross the entire lake.
 
 ---
+
+## 2025-02-06 15:15:34 - arrange
+**Definition**: To arrange things is to put them in the right place.
+
+![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/arrange_20250206151534.jpg)
+
+
+**Example**: Please arrange the words in order from A to Z.
+
+---

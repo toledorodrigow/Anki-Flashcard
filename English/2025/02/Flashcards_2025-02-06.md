@@ -26,3 +26,13 @@ To advance is to go forward.
 **Example**: I suspect that those kids stole the money.
 
 ---
+
+## 2025-02-06 15:06:00 - ability
+**Definition**: Ability is the quality of a person being able to do something well.
+
+![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/ability_20250206150559.jpg)
+
+
+**Example**: His swimming abilities let him cross the entire lake.
+
+---

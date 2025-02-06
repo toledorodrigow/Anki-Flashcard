@@ -16,3 +16,13 @@ To advance is to go forward.
 **Example**: He advanced across the bridge slowly.
 
 ---
+
+## 2025-02-06 15:05:31 - suspect
+**Definition**: To suspect something is to believe that it might be true.
+
+![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/suspect_20250206150530.jpg)
+
+
+**Example**: I suspect that those kids stole the money.
+
+---

@@ -40,3 +40,6 @@
 
 **Example**: The ********* on my arm was a success.
 
+ ## 2025-02-14 12:20:54 - familiar **Definition**: People or things familiar to you are those you know well. ![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/familiar_20250214122054.jpg)
+
+**Example**: The two friends were very familiar with each other.

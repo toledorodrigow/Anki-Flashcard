@@ -65,3 +65,12 @@
     **Example**: Eating good food builds up your ********.
     ---
     
+    ## 2025-02-14 12:31:02 - household
+    **Definition**: A ********* is all the people who live in one house.
+
+    ![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/household_20250214123102.jpg)
+
+
+    **Example**: Our ********* is made up of my father, my mother, and me.
+    ---
+    

@@ -6,4 +6,6 @@
 
 **Example**: I sued the company after I slipped on a banana peel in their hallway. ## 2025-02-14 08:36:44 - foundation **Definition**: A foundation is a group that provides money for research. ![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/foundation_20250214083644.jpg)
 
-**Example**: The foundation raised money to give scholarships to students.
+**Example**: The foundation raised money to give scholarships to students. ## 2025-02-14 08:38:31 - intent **Definition**: An intent is a plan to do something. ![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/intent_20250214083831.jpg)
+
+**Example**: Her intent is to visit Italy next summer.

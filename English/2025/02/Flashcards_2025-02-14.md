@@ -56,3 +56,12 @@
 
 
 **Example**: My father usually *****s the turkey for Thanksgiving.
+    ## 2025-02-14 12:29:53 - strength
+    **Definition**: Strength is the ability to do hard work or exercise.
+
+    ![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/strength_20250214122953.jpg)
+
+
+    **Example**: Eating good food builds up your ********.
+    ---
+    

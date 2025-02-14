@@ -74,3 +74,12 @@
     **Example**: Our ********* is made up of my father, my mother, and me.
     ---
     
+    ##2025-02-14 12:31:46 - apartment
+    **Definition**: An ********* is a set of rooms in a building where people live.
+    
+    ![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/apartment_20250214123146.jpg)
+
+
+    **Example**: She has a nice ********* in the city.
+    ---
+    

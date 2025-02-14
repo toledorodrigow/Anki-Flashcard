@@ -6,4 +6,6 @@
 
 **Example**: We have only one factory in our town.--- ## 2025-02-13 22:17:39 - direct **Definition**: If something is direct, it goes straight between two places. ![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/direct_20250213221739.jpg)
 
-**Example**: The green path is a direct route to my house.---
+**Example**: The green path is a direct route to my house.--- ## 2025-02-13 22:39:51 - support **Definition**: To support something is to like it and help it be successful. ![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/support_20250213223951.jpg)
+
+**Example**: Everyone at work supports the new plan.

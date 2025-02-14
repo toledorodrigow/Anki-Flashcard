@@ -18,3 +18,13 @@
     
     ---
     
+    ##2025-02-14 12:35:43 - concentrate
+    **Definition**: To *********** is to give one’s full attention to something.
+    
+    ![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/concentrate_20250214123543.jpg)
+
+
+    **Example**: I could not *********** on my homework because the room was so loud.
+    
+    ---
+    

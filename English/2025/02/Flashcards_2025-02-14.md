@@ -10,4 +10,6 @@
 
 **Example**: Her intent is to visit Italy next summer. ## 2025-02-14 08:39:43 - persuade **Definition**: To persuade someone is to make that person agree to do something. ![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/persuade_20250214083943.jpg)
 
-**Example**: The children persuaded their parents to buy them gifts.
+**Example**: The children persuaded their parents to buy them gifts. ## 2025-02-14 08:50:43 - disturb **Definition**: To disturb someone means to upset that person. ![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/disturb_20250214085043.jpg)
+
+**Example**: The loud noise disturbed me while I was working.

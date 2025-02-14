@@ -32,4 +32,11 @@
 
 **Example**: The baby’s skin felt very smooth. ## 2025-02-14 08:59:31 - operation **Definition**: An operation is when a doctor replaces or removes something in the body. ![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/operation_20250214085931.jpg)
 
-**Example**: The operation on my arm was a success.
+**Example**: The operation on my arm was a success.## 2025-02-14 12:13:49 - operation
+
+**Definition**: An ********* is when a doctor replaces or removes something in the body.
+
+![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/operation_20250214121349.jpg)
+
+**Example**: The ********* on my arm was a success.
+

@@ -4,4 +4,6 @@
 
 **Example**: It was obvious that he was tired. He kept falling asleep.--- ## 2025-02-13 22:14:40 - factory **Definition**: A factory is a building where things are made or put together. ![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/factory_20250213221440.jpg)
 
-**Example**: We have only one factory in our town.---
+**Example**: We have only one factory in our town.--- ## 2025-02-13 22:17:39 - direct **Definition**: If something is direct, it goes straight between two places. ![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/direct_20250213221739.jpg)
+
+**Example**: The green path is a direct route to my house.---

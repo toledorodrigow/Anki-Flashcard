@@ -30,4 +30,6 @@
 
  ## 2025-02-14 08:59:17 - smooth **Definition**: A smooth thing has no bumps or rough parts. ![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/smooth_20250214085917.jpg)
 
-**Example**: The baby’s skin felt very smooth.
+**Example**: The baby’s skin felt very smooth. ## 2025-02-14 08:59:31 - operation **Definition**: An operation is when a doctor replaces or removes something in the body. ![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/operation_20250214085931.jpg)
+
+**Example**: The operation on my arm was a success.

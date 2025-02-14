@@ -20,3 +20,11 @@
 
 **Example**: The car was damaged in the accident.
 
+## 2025-02-14 08:55:07 - hidden
+
+**Definition**: Hidden means not easily noticed or too hard to find.
+
+![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/hidden_20250214085507.jpg)
+
+**Example**: The hidden camera recorded everything in the parking lot.
+

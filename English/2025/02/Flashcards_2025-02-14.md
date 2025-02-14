@@ -4,4 +4,6 @@
 
 **Example**: We both compromised about the game we decided to play. ## 2025-02-14 08:23:25 - sue **Definition**: To sue is to take someone to court for some harmful action. ![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/sue_20250214082325.jpg)
 
-**Example**: I sued the company after I slipped on a banana peel in their hallway.
+**Example**: I sued the company after I slipped on a banana peel in their hallway. ## 2025-02-14 08:36:44 - foundation **Definition**: A foundation is a group that provides money for research. ![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/foundation_20250214083644.jpg)
+
+**Example**: The foundation raised money to give scholarships to students.

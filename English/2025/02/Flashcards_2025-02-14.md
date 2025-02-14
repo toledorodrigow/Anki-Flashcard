@@ -28,3 +28,6 @@
 
 **Example**: The hidden camera recorded everything in the parking lot.
 
+ ## 2025-02-14 08:59:17 - smooth **Definition**: A smooth thing has no bumps or rough parts. ![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/smooth_20250214085917.jpg)
+
+**Example**: The baby’s skin felt very smooth.

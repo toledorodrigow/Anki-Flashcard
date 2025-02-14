@@ -47,4 +47,12 @@
  ![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/feel_20250214122546.jpg)
 
 
-**Example**: The girl must **** happy because it is her birthday today.
+**Example**: The girl must **** happy because it is her birthday today.##2025-02-14 12:27:38 - carve 
+
+**Definition**: To ***** means to cut into something. 
+
+![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/carve_20250214122738.jpg)
+
+
+
+**Example**: My father usually *****s the turkey for Thanksgiving.

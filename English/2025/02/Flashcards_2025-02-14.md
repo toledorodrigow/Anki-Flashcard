@@ -12,4 +12,11 @@
 
 **Example**: The children persuaded their parents to buy them gifts. ## 2025-02-14 08:50:43 - disturb **Definition**: To disturb someone means to upset that person. ![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/disturb_20250214085043.jpg)
 
-**Example**: The loud noise disturbed me while I was working.
+**Example**: The loud noise disturbed me while I was working.## 2025-02-14 08:54:55 - damage
+
+**Definition**: To damage something is to break it.
+
+![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/damage_20250214085455.jpg)
+
+**Example**: The car was damaged in the accident.
+

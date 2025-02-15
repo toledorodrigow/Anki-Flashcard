@@ -148,3 +148,8 @@
 ![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/leave_20250215171852.jpg)
 **Example**: He packed his bag and was ready to ***** for home.
 ---
+## 2025-02-15 17:20:01 - spider
+**Definition**: A ****** is a small creature with eight legs.
+![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/spider_20250215172001.jpg)
+**Example**: Some adults have a fear of little creatures such as ******s.
+---

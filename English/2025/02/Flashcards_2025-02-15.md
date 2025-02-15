@@ -49,3 +49,13 @@
     
     ---
     
+    ##2025-02-15 15:24:53 - nervous
+    **Definition**: When a person is *******, they think something bad will happen.
+    
+    ![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/nervous_20250215152453.jpg)
+
+
+    **Example**: The boy became ******* when he heard the news.
+    
+    ---
+    

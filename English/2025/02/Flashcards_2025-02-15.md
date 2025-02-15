@@ -115,3 +115,9 @@
     **Example**: I had to be ******* and wait until 5 o’clock to leave.
     ---
     
+    ## 2025-02-15 16:46:35 - match
+    **Definition**: To ***** is to be the same or similar.
+    ![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/match_20250215164635.jpg)
+    **Example**: The two shoes *****ed. They looked the same.
+    ---
+    

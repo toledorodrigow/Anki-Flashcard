@@ -127,3 +127,9 @@
     **Example**: How many ****** live in China?
     ---
     
+    ## 2025-02-15 17:13:30 - people
+    **Definition**: People are humans.
+    ![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/people_20250215171330.jpg)
+    **Example**: How many ****** live in China?
+    ---
+    

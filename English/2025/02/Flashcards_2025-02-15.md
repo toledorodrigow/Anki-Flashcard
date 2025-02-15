@@ -188,3 +188,8 @@
 ![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/downtown_20250215172652.jpg)
 **Example**: The ******** area is filled with many tall buildings.
 ---
+## 2025-02-15 17:28:10 - client
+**Definition**: A ****** is a person or business that pays another to do a service.
+![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/client_20250215172810.jpg)
+**Example**: She has many ******s who enjoy coming to her salon.
+---

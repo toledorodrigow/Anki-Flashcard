@@ -158,3 +158,8 @@
 ![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/stair_20250215172057.jpg)
 **Example**: You can take the *****s to the second floor.
 ---
+## 2025-02-15 17:21:51 - smell
+**Definition**: To ***** something means to use your nose to sense it.
+![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/smell_20250215172151.jpg)
+**Example**: The two friends *****ed the flower.
+---

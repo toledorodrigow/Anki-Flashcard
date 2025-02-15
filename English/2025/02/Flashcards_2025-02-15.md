@@ -163,3 +163,8 @@
 ![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/smell_20250215172151.jpg)
 **Example**: The two friends *****ed the flower.
 ---
+## 2025-02-15 17:23:24 - instance
+**Definition**: An ******** is an example of something.
+![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/instance_20250215172324.jpg)
+**Example**: I have never experienced an ******** of hate. Have you?
+---

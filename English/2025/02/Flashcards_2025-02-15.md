@@ -59,3 +59,13 @@
     
     ---
     
+    ##2025-02-15 15:28:47 - demonstrate
+    **Definition**: To *********** something is to show how it is done.
+    
+    ![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/demonstrate_20250215152847.jpg)
+
+
+    **Example**: She ***********d her plan to her co-workers.
+    
+    ---
+    

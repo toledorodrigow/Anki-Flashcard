@@ -109,3 +109,9 @@
     **Example**: The medicine had a good ****** on the boy.
     ---
     
+    ## 2025-02-15 16:45:48 - patient
+    **Definition**: If people are *******, they don’t become angry or upset easily.
+    ![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/patient_20250215164548.jpg)
+    **Example**: I had to be ******* and wait until 5 o’clock to leave.
+    ---
+    

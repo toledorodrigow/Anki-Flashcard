@@ -183,3 +183,8 @@
 ![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/home_20250215172635.jpg)
 **Example**: The family likes to stay at **** on the weekends.
 ---
+## 2025-02-15 17:26:52 - downtown
+**Definition**: The ******** area is the center of most cities.
+![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/downtown_20250215172652.jpg)
+**Example**: The ******** area is filled with many tall buildings.
+---

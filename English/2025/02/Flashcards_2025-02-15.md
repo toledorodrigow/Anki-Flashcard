@@ -9,3 +9,13 @@
     
     ---
     
+    ##2025-02-15 15:19:48 - generation
+    **Definition**: A ********** is a group of people who live at the same time.
+    
+    ![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/generation_20250215151948.jpg)
+
+
+    **Example**: My grandparents are from a different ********** than me.
+    
+    ---
+    

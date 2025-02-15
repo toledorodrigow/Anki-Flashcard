@@ -153,3 +153,8 @@
 ![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/spider_20250215172001.jpg)
 **Example**: Some adults have a fear of little creatures such as ******s.
 ---
+## 2025-02-15 17:20:57 - stair
+**Definition**: Stairs are the things that are used to walk up or down in a building.
+![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/stair_20250215172057.jpg)
+**Example**: You can take the *****s to the second floor.
+---

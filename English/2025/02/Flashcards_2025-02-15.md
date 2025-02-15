@@ -168,3 +168,8 @@
 ![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/instance_20250215172324.jpg)
 **Example**: I have never experienced an ******** of hate. Have you?
 ---
+## 2025-02-15 17:23:51 - steal
+**Definition**: To ***** is to take something that is not yours.
+![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/steal_20250215172351.jpg)
+**Example**: The men tried to ***** money from the bank.
+---

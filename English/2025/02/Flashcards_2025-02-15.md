@@ -29,3 +29,13 @@
     
     ---
     
+    ##2025-02-15 15:22:15 - coast
+    **Definition**: The ***** is the land by an ocean.
+    
+    ![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/coast_20250215152215.jpg)
+
+
+    **Example**: I stayed on the southern ***** of Australia.
+    
+    ---
+    

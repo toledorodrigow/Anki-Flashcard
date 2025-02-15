@@ -85,3 +85,9 @@
     **Example**: We found the perfect **** for our picnic.
     ---
     
+    ## 2025-02-15 15:46:12 - tail
+    **Definition**: A **** is a part of an animal’s body that sticks out from its rear or back.
+    ![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/tail_20250215154612.jpg)
+    **Example**: Our dog wags its **** when it’s happy.
+    ---
+    

@@ -39,3 +39,13 @@
     
     ---
     
+    ##2025-02-15 15:23:29 - donate
+    **Definition**: To ****** is to give something to a charity or organization.
+    
+    ![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/donate_20250215152329.jpg)
+
+
+    **Example**: We ****** money to charities every year.
+    
+    ---
+    

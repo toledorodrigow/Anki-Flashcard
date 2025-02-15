@@ -173,3 +173,8 @@
 ![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/steal_20250215172351.jpg)
 **Example**: The men tried to ***** money from the bank.
 ---
+## 2025-02-15 17:25:54 - home
+**Definition**: A person’s **** is the place where that person lives.
+![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/home_20250215172554.jpg)
+**Example**: The family likes to stay at **** on the weekends.
+---

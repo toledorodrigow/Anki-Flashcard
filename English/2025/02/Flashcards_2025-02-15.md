@@ -91,3 +91,9 @@
     **Example**: Our dog wags its **** when it’s happy.
     ---
     
+    ## 2025-02-15 15:46:45 - organize
+    **Definition**: To ******** is to plan or get ready for an event.
+    ![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/organize_20250215154645.jpg)
+    **Example**: Make a list to help you ******** the things you need.
+    ---
+    

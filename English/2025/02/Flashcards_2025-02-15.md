@@ -103,3 +103,9 @@
     **Example**: Make a list to help you ******** the things you need.
     ---
     
+    ## 2025-02-15 16:44:24 - effect
+    **Definition**: An ****** is a change made by something else.
+    ![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/effect_20250215164424.jpg)
+    **Example**: The medicine had a good ****** on the boy.
+    ---
+    

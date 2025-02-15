@@ -69,3 +69,13 @@
     
     ---
     
+    ##2025-02-15 15:29:19 - site
+    **Definition**: A **** is a place.
+    
+    ![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/site_20250215152919.jpg)
+
+
+    **Example**: We found the perfect **** for our picnic.
+    
+    ---
+    

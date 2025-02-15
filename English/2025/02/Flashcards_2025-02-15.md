@@ -133,3 +133,9 @@
     **Example**: How many ****** live in China?
     ---
     
+    ## 2025-02-15 17:13:59 - staff
+    **Definition**: A ***** is a group of people working together in a company.
+    ![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/staff_20250215171359.jpg)
+    **Example**: My dad has a ***** of four people to help him at the office.
+    ---
+    

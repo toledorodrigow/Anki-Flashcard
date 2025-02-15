@@ -97,3 +97,9 @@
     **Example**: Make a list to help you ******** the things you need.
     ---
     
+    ## 2025-02-15 16:43:12 - organize
+    **Definition**: To ******** is to plan or get ready for an event.
+    ![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/organize_20250215164312.jpg)
+    **Example**: Make a list to help you ******** the things you need.
+    ---
+    

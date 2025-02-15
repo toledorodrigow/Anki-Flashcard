@@ -143,3 +143,8 @@
 ![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/staff_20250215171814.jpg)
 **Example**: My dad has a ***** of four people to help him at the office.
 ---
+## 2025-02-15 17:18:52 - leave
+**Definition**: To ***** means to go away from someone or something.
+![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/leave_20250215171852.jpg)
+**Example**: He packed his bag and was ready to ***** for home.
+---

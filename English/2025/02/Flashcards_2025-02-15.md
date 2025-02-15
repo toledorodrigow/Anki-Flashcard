@@ -138,4 +138,8 @@
     ![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/staff_20250215171359.jpg)
     **Example**: My dad has a ***** of four people to help him at the office.
     ---
-    
+    ## 2025-02-15 17:18:14 - staff
+**Definition**: A ***** is a group of people working together in a company.
+![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/staff_20250215171814.jpg)
+**Example**: My dad has a ***** of four people to help him at the office.
+---

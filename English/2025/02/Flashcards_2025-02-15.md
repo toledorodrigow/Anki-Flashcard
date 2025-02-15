@@ -178,3 +178,8 @@
 ![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/home_20250215172554.jpg)
 **Example**: The family likes to stay at **** on the weekends.
 ---
+## 2025-02-15 17:26:35 - home
+**Definition**: A person’s **** is the place where that person lives.
+![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/home_20250215172635.jpg)
+**Example**: The family likes to stay at **** on the weekends.
+---

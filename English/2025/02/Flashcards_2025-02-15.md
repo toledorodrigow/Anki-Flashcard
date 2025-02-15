@@ -19,3 +19,13 @@
     
     ---
     
+    ##2025-02-15 15:21:27 - ever
+    **Definition**: Ever means at any time.
+    
+    ![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/ever_20250215152127.jpg)
+
+
+    **Example**: Going skiing last winter was the most fun I’ve **** had.
+    
+    ---
+    

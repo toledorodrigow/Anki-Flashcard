@@ -121,3 +121,9 @@
     **Example**: The two shoes *****ed. They looked the same.
     ---
     
+    ## 2025-02-15 16:48:02 - people
+    **Definition**: People are humans.
+    ![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/people_20250215164802.jpg)
+    **Example**: How many ****** live in China?
+    ---
+    

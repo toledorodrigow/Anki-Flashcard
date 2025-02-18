@@ -95,3 +95,10 @@
 
 **Example**: The woman *****s riding her bicycle.
 ---
+## 2025-02-17 22:01:18 - medical
+**Definition**: Medical means related to the treatment of an injury or disease.
+
+![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/medical_20250217220118.jpg)
+
+**Example**: Tyler is a ******* student studying to become a doctor.
+---

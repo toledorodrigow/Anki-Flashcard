@@ -123,3 +123,10 @@
 
 **Example**: The crying baby made a loud *****.
 ---
+## 2025-02-17 22:08:14 - hear
+**Definition**: To **** is to be aware of sound through your ears.
+
+![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/hear_20250217220814.jpg)
+
+**Example**: Michelle cannot **** what you are saying.
+---

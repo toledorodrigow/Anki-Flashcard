@@ -109,3 +109,10 @@
 
 **Example**: Tyler is a ******* student studying to become a doctor.
 ---
+## 2025-02-17 22:07:14 - goal
+**Definition**: A **** is something you work toward.
+
+![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/goal_20250217220714.jpg)
+
+**Example**: Her **** was to become a doctor.
+---

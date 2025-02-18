@@ -214,3 +214,10 @@
 
 **Example**: Neither the path on the left nor the path on the right will lead us home.
 ---
+## 2025-02-17 22:40:08 - real
+**Definition**: If something is ****, it actually exists.
+
+![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/real_20250217224008.jpg)
+
+**Example**: Some people don’t believe in aliens from space, but I think they’re ****.
+---

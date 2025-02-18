@@ -38,3 +38,8 @@
 ![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/peace_20250217213905.jpg)
 **Example**: A white dove is a symbol of *****.
 ---
+## 2025-02-17 21:39:30 - overwhelm
+**Definition**: To ********* is to exist in such a large amount that someone cannot deal with it.
+![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/overwhelm_20250217213930.jpg)
+**Example**: The amount of homework her teacher assigned has *********ed her.
+---

@@ -200,3 +200,10 @@
 
 **Example**: The squirrel had ***** nuts for the winter.
 ---
+## 2025-02-17 22:39:25 - extra
+**Definition**: If something is *****, it is more than what is needed.
+
+![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/extra_20250217223925.jpg)
+
+**Example**: The squirrel had ***** nuts for the winter.
+---

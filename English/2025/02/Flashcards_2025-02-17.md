@@ -60,3 +60,10 @@
 
 **Example**: The chart shows how his production has *****ed over the year.
 ---
+## 2025-02-17 21:54:53 - meat
+**Definition**: Meat is food made of animals.
+
+
+
+**Example**: This piece of **** I’m eating tastes very good.
+---

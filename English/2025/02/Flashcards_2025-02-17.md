@@ -165,3 +165,10 @@
 
 **Example**: Her headache made her ****** all day.
 ---
+## 2025-02-17 22:22:29 - suffer
+**Definition**: To ****** is to feel pain.
+
+![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/suffer_20250217222229.jpg)
+
+**Example**: Her headache made her ****** all day.
+---

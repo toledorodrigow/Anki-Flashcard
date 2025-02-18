@@ -186,3 +186,10 @@
 
 **Example**: When the teacher asked the question, we all *******ed.
 ---
+## 2025-02-17 22:24:17 - extra
+**Definition**: If something is *****, it is more than what is needed.
+
+![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/extra_20250217222417.jpg)
+
+**Example**: The squirrel had ***** nuts for the winter.
+---

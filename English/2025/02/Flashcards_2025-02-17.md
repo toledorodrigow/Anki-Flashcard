@@ -28,3 +28,8 @@
 ![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/suggest_20250217213705.jpg)
 **Example**: He *******ed that we go to see his boss.
 ---
+## 2025-02-17 21:38:06 - suggest
+**Definition**: To ******* something means to give an idea or plan about it.
+
+**Example**: He *******ed that we go to see his boss.
+---

@@ -18,3 +18,8 @@
 ![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/level_20250217213527.jpg)
 **Example**: Please check the ***** of the temperature.
 ---
+## 2025-02-17 21:36:21 - advise
+**Definition**: To ****** someone is to tell them what to do.
+![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/advise_20250217213621.jpg)
+**Example**: My mother often ******s people about their money.
+---

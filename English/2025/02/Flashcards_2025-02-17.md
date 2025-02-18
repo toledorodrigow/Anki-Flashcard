@@ -151,3 +151,10 @@
 
 **Example**: Carrots are my favorite *********.
 ---
+## 2025-02-17 22:12:20 - loan
+**Definition**: A **** is something, usually money, that one person lends to another.
+
+![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/loan_20250217221220.jpg)
+
+**Example**: I got a **** from the bank.
+---

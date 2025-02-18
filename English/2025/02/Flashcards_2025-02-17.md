@@ -144,3 +144,10 @@
 
 **Example**: I hurried home on my bike.
 ---
+## 2025-02-17 22:11:49 - vegetable
+**Definition**: A ********* is a plant used as food.
+
+![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/vegetable_20250217221149.jpg)
+
+**Example**: Carrots are my favorite *********.
+---

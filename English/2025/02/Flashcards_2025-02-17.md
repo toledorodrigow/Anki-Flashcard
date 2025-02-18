@@ -48,3 +48,8 @@
 ![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/meat_20250217214053.jpg)
 **Example**: This piece of **** I’m eating tastes very good.
 ---
+## 2025-02-17 21:41:38 - lower
+**Definition**: To ***** something is to make it go down.
+![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/lower_20250217214138.jpg)
+**Example**: The chart shows how his production has *****ed over the year.
+---

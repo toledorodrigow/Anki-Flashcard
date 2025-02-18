@@ -228,3 +228,10 @@
 
 **Example**: Some people don’t believe in aliens from space, but I think they’re ****.
 ---
+## 2025-02-17 22:41:14 - opinion
+**Definition**: An ******* is a thought about a person or a thing.
+
+![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/opinion_20250217224114.jpg)
+
+**Example**: Meg told me her ******* of my story. She said it was not funny.
+---

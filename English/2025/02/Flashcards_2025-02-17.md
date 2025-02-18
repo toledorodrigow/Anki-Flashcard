@@ -74,3 +74,10 @@
 
 **Example**: This piece of **** I’m eating tastes very good.
 ---
+## 2025-02-17 21:55:34 - overwhelm
+**Definition**: To ********* is to exist in such a large amount that someone cannot deal with it.
+
+![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/overwhelm_20250217215534.jpg)
+
+**Example**: The amount of homework her teacher assigned has *********ed her.
+---

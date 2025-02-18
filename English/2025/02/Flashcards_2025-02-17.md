@@ -137,3 +137,10 @@
 
 **Example**: He ***** goes to bed early during the week.
 ---
+## 2025-02-17 22:11:03 - hurry
+**Definition**: To ***** is to do something quickly.
+
+![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/hurry_20250217221103.jpg)
+
+**Example**: I hurried home on my bike.
+---

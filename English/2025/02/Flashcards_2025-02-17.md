@@ -158,3 +158,10 @@
 
 **Example**: I got a **** from the bank.
 ---
+## 2025-02-17 22:13:48 - suffer
+**Definition**: To ****** is to feel pain.
+
+![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/suffer_20250217221348.jpg)
+
+**Example**: Her headache made her ****** all day.
+---

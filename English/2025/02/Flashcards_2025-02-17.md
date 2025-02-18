@@ -130,3 +130,10 @@
 
 **Example**: Michelle cannot **** what you are saying.
 ---
+## 2025-02-17 22:09:49 - often
+**Definition**: Often is when something happens many times.
+
+![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/often_20250217220949.jpg)
+
+**Example**: He ***** goes to bed early during the week.
+---

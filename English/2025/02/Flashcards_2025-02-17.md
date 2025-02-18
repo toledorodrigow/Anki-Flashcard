@@ -81,3 +81,10 @@
 
 **Example**: The amount of homework her teacher assigned has *********ed her.
 ---
+## 2025-02-17 21:56:10 - contrast
+**Definition**: A ******** is a sharp difference between two things.
+
+![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/contrast_20250217215610.jpg)
+
+**Example**: The ******** between my parents is very noticeable.
+---

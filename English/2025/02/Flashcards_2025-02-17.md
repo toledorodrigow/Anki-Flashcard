@@ -33,3 +33,8 @@
 
 **Example**: He *******ed that we go to see his boss.
 ---
+## 2025-02-17 21:39:05 - peace
+**Definition**: Peace is a time without war.
+![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/peace_20250217213905.jpg)
+**Example**: A white dove is a symbol of *****.
+---

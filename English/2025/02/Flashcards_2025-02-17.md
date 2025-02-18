@@ -221,3 +221,10 @@
 
 **Example**: Some people don’t believe in aliens from space, but I think they’re ****.
 ---
+## 2025-02-17 22:41:00 - real
+**Definition**: If something is ****, it actually exists.
+
+![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/real_20250217224100.jpg)
+
+**Example**: Some people don’t believe in aliens from space, but I think they’re ****.
+---

@@ -88,3 +88,10 @@
 
 **Example**: The ******** between my parents is very noticeable.
 ---
+## 2025-02-17 21:56:37 - enjoy
+**Definition**: To ***** is to like something.
+
+![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/enjoy_20250217215637.jpg)
+
+**Example**: The woman *****s riding her bicycle.
+---

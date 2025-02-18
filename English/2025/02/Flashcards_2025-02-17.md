@@ -23,3 +23,8 @@
 ![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/advise_20250217213621.jpg)
 **Example**: My mother often ******s people about their money.
 ---
+## 2025-02-17 21:37:05 - suggest
+**Definition**: To ******* something means to give an idea or plan about it.
+![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/suggest_20250217213705.jpg)
+**Example**: He *******ed that we go to see his boss.
+---

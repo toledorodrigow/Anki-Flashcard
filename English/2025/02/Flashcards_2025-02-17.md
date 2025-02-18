@@ -67,3 +67,10 @@
 
 **Example**: This piece of **** I’m eating tastes very good.
 ---
+## 2025-02-17 21:55:19 - meat
+**Definition**: Meat is food made of animals.
+
+![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/meat_20250217215519.jpg)
+
+**Example**: This piece of **** I’m eating tastes very good.
+---

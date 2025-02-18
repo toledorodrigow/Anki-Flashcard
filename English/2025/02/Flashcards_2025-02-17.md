@@ -13,3 +13,8 @@
 ![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/necessary_20250217213452.jpg)
 **Example**: A passport is ********* if you travel to other countries.
 ---
+## 2025-02-17 21:35:27 - level
+**Definition**: A ***** is a point on a scale that measures something.
+![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/level_20250217213527.jpg)
+**Example**: Please check the ***** of the temperature.
+---

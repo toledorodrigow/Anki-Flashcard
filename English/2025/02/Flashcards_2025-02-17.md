@@ -116,3 +116,10 @@
 
 **Example**: Her **** was to become a doctor.
 ---
+## 2025-02-17 22:07:47 - noise
+**Definition**: A ***** is an unpleasant sound.
+
+![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/noise_20250217220747.jpg)
+
+**Example**: The crying baby made a loud *****.
+---

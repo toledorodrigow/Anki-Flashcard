@@ -43,3 +43,8 @@
 ![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/overwhelm_20250217213930.jpg)
 **Example**: The amount of homework her teacher assigned has *********ed her.
 ---
+## 2025-02-17 21:40:53 - meat
+**Definition**: Meat is food made of animals.
+![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/meat_20250217214053.jpg)
+**Example**: This piece of **** I’m eating tastes very good.
+---

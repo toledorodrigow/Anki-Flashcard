@@ -207,3 +207,10 @@
 
 **Example**: The squirrel had ***** nuts for the winter.
 ---
+## 2025-02-17 22:39:58 - neither
+**Definition**: You use ******* to connect two negative possibilities.
+
+![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/neither_20250217223958.jpg)
+
+**Example**: Neither the path on the left nor the path on the right will lead us home.
+---

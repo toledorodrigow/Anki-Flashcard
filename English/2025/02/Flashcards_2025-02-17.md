@@ -172,3 +172,10 @@
 
 **Example**: Her headache made her ****** all day.
 ---
+## 2025-02-17 22:22:53 - purpose
+**Definition**: A ******* is the reason that you do something.
+
+![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/purpose_20250217222253.jpg)
+
+**Example**: The ******* of exercising is to get into shape.
+---

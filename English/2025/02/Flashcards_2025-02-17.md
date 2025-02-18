@@ -179,3 +179,10 @@
 
 **Example**: The ******* of exercising is to get into shape.
 ---
+## 2025-02-17 22:23:50 - respond
+**Definition**: To ******* is to give an answer to what someone else said.
+
+![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/respond_20250217222350.jpg)
+
+**Example**: When the teacher asked the question, we all *******ed.
+---

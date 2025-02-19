@@ -26,3 +26,10 @@
 
 **Example**: What is the name of the ****** you live on?
 ---
+## 2025-02-19 20:27:13 - divide
+**Definition**: To ****** something is to split it into smaller parts.
+
+![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/divide_20250219202713.jpg)
+
+**Example**: We ******d the pizza.
+---

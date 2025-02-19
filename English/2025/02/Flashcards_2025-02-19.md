@@ -33,3 +33,10 @@
 
 **Example**: We ******d the pizza.
 ---
+## 2025-02-19 20:27:31 - health
+**Definition**: Health is the state of a person’s body.
+
+![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/health_20250219202731.jpg)
+
+**Example**: People who want good ****** should not smoke.
+---

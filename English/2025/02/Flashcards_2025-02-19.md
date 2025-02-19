@@ -19,3 +19,10 @@
 
 **Example**: He went to Paris to become an ******.
 ---
+## 2025-02-19 20:26:01 - street
+**Definition**: A ****** is a road in a city or village.
+
+![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/street_20250219202601.jpg)
+
+**Example**: What is the name of the ****** you live on?
+---

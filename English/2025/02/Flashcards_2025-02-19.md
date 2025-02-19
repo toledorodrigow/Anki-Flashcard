@@ -12,3 +12,10 @@
 
 **Example**: Did you read the ******* in the newspaper about the soccer game?
 ---
+## 2025-02-19 20:25:30 - artist
+**Definition**: An ****** is a person who paints, draws, or makes sculptures.
+
+![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/artist_20250219202530.jpg)
+
+**Example**: He went to Paris to become an ******.
+---

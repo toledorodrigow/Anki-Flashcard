@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Live English Quiz</title>
+    <script src="https://cdn.socket.io/4.5.4/socket.io.min.js"></script>
+    <style>
+        body {
+            background: #1a1a1a;
+            color: white;
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        #registration {
+            margin-bottom: 20px;
+        }
+        #question-box {
+            background: #333;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        #answer {
+            padding: 10px;
+            width: 200px;
+            margin-right: 10px;
+        }
+        button {
+            padding: 10px 20px;
+            background: #ff0000;
+            border: none;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        #leaderboard {
+            margin-top: 20px;
+            background: #222;
+            padding: 15px;
+            border-radius: 8px;
+        }
+        .timer {
+            height: 3px;
+            background: #444;
+            margin: 10px 0;
+        }
+        #timer-bar {
+            height: 100%;
+            background: #00ff00;
+            transition: width linear;
+        }
+        #question-image {
+            max-width: 300px;
+            margin: 10px 0;
+            border-radius: 5px;
+        }
+        .disabled {
+            background: #666 !important;
+            cursor: not-allowed;
+        }
+        #answer-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .past-question {
+            background: #2a2a2a;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 8px;
+        }
+        .past-question img {
+            max-width: 200px;
+        }
+        .question-number {
+            color: #00ff00;
+            margin-bottom: 10px;
+        }
+        .result-mark {
+            margin-left: 10px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div id="registration">
+        <input type="text" id="username" placeholder="Enter your username">
+        <button onclick="registerUser()">Register</button>
+    </div>
+    
+    <div id="question-box">
+        <div class="question-number">Waiting for question...</div>
+    </div>
+    
+    <h3>Previous Flashcards</h3>
+    <div id="question-history"></div>
+    
+    <div id="leaderboard"></div>
+
+    <script>
+        const socket = io();
+        let currentUsername = null;
+        let activeQuestionId = null;
+
+        function registerUser() {
+            const username = document.getElementById('username').value.trim();
+            if (username) {
+                currentUsername = username;
+                document.getElementById('registration').style.display = 'none';
+                document.getElementById('answer').disabled = false;
+                document.getElementById('submit-btn').disabled = false;
+                fetchQuestions();
+            }
+        }
+
+        async function fetchQuestions() {
+            try {
+                const response = await fetch('/questions');
+                const questions = await response.json();
+                questions.forEach(q => {
+                    if (!q.active) {
+                        addQuestionToHistory(q);
+                    }
+                });
+            } catch (error) {
+                console.error('Error loading questions:', error);
+            }
+        }
+
+        function createQuestionElement(question, isCurrent) {
+            const div = document.createElement('div');
+            div.className = isCurrent ? 'current-question' : 'past-question';
+            div.id = `q-${question.id}`;
+            div.innerHTML = `
+                <div class="question-number">
+                    Flashcard #${question.number} (${isCurrent ? 'Current' : 'Past'})
+                </div>
+                <h2>${question.question}</h2>
+                ${question.image ? `<img src="${question.image}">` : ''}
+                <p>${question.example}</p>
+                ${isCurrent ? `
+                    <div class="timer">
+                        <div id="timer-bar" style="width: 100%;"></div>
+                    </div>
+                    <div>Time remaining: <span id="time-text"></span></div>
+                ` : ''}
+                <div class="answer-section">
+                    <input type="text" ${isCurrent ? 'id="answer"' : 'class="past-answer"'} 
+                           placeholder="Type your answer..." ${question.answered ? 'disabled' : ''}>
+                    <button onclick="${isCurrent ? 'submitAnswer()' : `submitPastAnswer('${question.id}')`}" 
+                            ${question.answered ? 'disabled' : ''}>
+                        Submit
+                    </button>
+                    <span class="result-mark"></span>
+                </div>
+            `;
+            return div;
+        }
+
+        function addQuestionToHistory(question) {
+            const existing = document.getElementById(`q-${question.id}`);
+            if (!existing) {
+                const container = document.getElementById('question-history');
+                container.appendChild(createQuestionElement(question, false));
+            }
+        }
+
+        function submitAnswer() {
+            const answer = document.getElementById('answer').value.trim();
+            if (answer && currentUsername && activeQuestionId) {
+                socket.emit('answer', {
+                    user: currentUsername,
+                    question_id: activeQuestionId,
+                    answer: answer,
+                    is_current: true
+                });
+                document.getElementById('submit-btn').disabled = true;
+            }
+        }
+
+        function submitPastAnswer(questionId) {
+            const input = document.querySelector(`#q-${questionId} .past-answer`);
+            const answer = input.value.trim();
+            if (answer && currentUsername) {
+                socket.emit('answer', {
+                    user: currentUsername,
+                    question_id: questionId,
+                    answer: answer,
+                    is_current: false
+                });
+                input.disabled = true;
+            }
+        }
+
+        socket.on('new_question', (data) => {
+            activeQuestionId = data.id;
+            const questionBox = document.getElementById('question-box');
+            questionBox.innerHTML = '';
+            questionBox.appendChild(createQuestionElement({
+                ...data,
+                answered: false,
+                active: true
+            }, true));
+            startTimer(data.end_time, data.timeout);
+            fetchQuestions(); // Refresh the history with updated questions
+        });
+
+        function startTimer(endTime, timeout) {
+            const timerBar = document.getElementById('timer-bar');
+            const timeText = document.getElementById('time-text');
+            const start = Date.now();
+            const duration = timeout * 1000;
+
+            function update() {
+                const elapsed = Date.now() - start;
+                const remaining = duration - elapsed;
+                const seconds = Math.ceil(remaining / 1000);
+                
+                timerBar.style.width = `${(remaining / duration) * 100}%`;
+                timeText.textContent = `${seconds}s`;
+                
+                if (remaining > 0) {
+                    requestAnimationFrame(update);
+                } else {
+                    timeText.textContent = "Time's up!";
+                    document.getElementById('submit-btn').disabled = true;
+                }
+            }
+            requestAnimationFrame(update);
+        }
+
+        socket.on('answer_result', (data) => {
+            const resultSpan = document.querySelector(`#q-${data.question_id} .result-mark`);
+            if (resultSpan) {
+                resultSpan.textContent = data.correct ? '✓' : '✗';
+                resultSpan.style.color = data.correct ? 'green' : 'red';
+                if (data.scored) {
+                    resultSpan.textContent += ' (+1)';
+                }
+            }
+            updateLeaderboard();
+        });
+
+        async function updateLeaderboard() {
+            try {
+                const response = await fetch('/scores');
+                const scores = await response.json();
+                const leaderboardHTML = scores.map(([user, score]) => `
+                    <div>${user}: ${score} points</div>
+                `).join('');
+                document.getElementById('leaderboard').innerHTML = leaderboardHTML;
+            } catch (error) {
+                console.error('Leaderboard error:', error);
+            }
+        }
+
+        socket.on('question_end', (data) => {
+            const questionDiv = document.getElementById(`q-${data.question_id}`);
+            if (questionDiv) {
+                questionDiv.querySelector('.timer').remove();
+                addQuestionToHistory({
+                    ...data,
+                    answered: true
+                });
+            }
+        });
+    </script>
+</body>
+</html>

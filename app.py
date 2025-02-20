@@ -38,14 +38,52 @@ def serve_interface():
 
 @app.route('/questions')
 def get_questions():
-    return jsonify([{
-        'id': q['id'],
-        'number': q['number'],
-        'question': q['definition'],
-        'example': q['example'],
-        'image': q['image']
-    } for q in reversed(questions)])
+    # Fetch latest content from GitHub instead of using local memory
+    md_files = get_all_markdown_files()
+    all_questions = []
+    
+    for file in md_files:
+        content = get_github_file_content(file)
+        questions = parse_markdown_content(content)
+        all_questions.extend(questions)
+    
+    return jsonify(sorted(all_questions, key=lambda x: x['timestamp'], reverse=True))
+def parse_markdown_content(content):
+    # Parse markdown content to extract questions
+    questions = []
+    entries = content.split('## ')[1:]
+    
+    for entry in entries:
+        parts = entry.split('**Definition**:')
+        if len(parts) > 1:
+            timestamp_word = parts[0].split(' - ')
+            definition_rest = parts[1].split('**Example**:')
+            example_rest = definition_rest[1].split('---')[0] if len(definition_rest) > 1 else ''
+            
+            image_match = re.search(r'!\[Image\]\((.*?)\)', definition_rest[0])
+            
+            questions.append({
+                'timestamp': timestamp_word[0].strip(),
+                'word': timestamp_word[1].strip(),
+                'definition': definition_rest[0].split('\n\n')[0].strip(),
+                'example': example_rest.strip(),
+                'image': image_match.group(1) if image_match else None
+            })
+    
+    return questions    
+def get_all_markdown_files():
+    # Implement GitHub API call to list all markdown files in repo
+    url = f"https://api.github.com/repos/{REPO_OWNER}/{REPO_NAME}/git/trees/{BRANCH}?recursive=1"
+    response = requests.get(url, headers=headers)
+    files = [item['path'] for item in response.json()['tree'] if item['path'].endswith('.md')]
+    return files
 
+def get_github_file_content(file_path):
+    # Get raw content of a file from GitHub
+    url = f"https://raw.githubusercontent.com/{REPO_OWNER}/{REPO_NAME}/{BRANCH}/{file_path}"
+    response = requests.get(url)
+    return response.text
+    
 @app.route('/scores')
 def get_scores():
     return jsonify(sorted(scores.items(), key=lambda x: x[1], reverse=True)[:10])
@@ -104,7 +142,7 @@ def upload_card_data(card_data):
     md_file = f"English/{timestamp.year}/{timestamp.month:02d}/Flashcards_{timestamp.date()}.md"
     sanitized_word = re.sub(r"[^a-zA-Z0-9]", "_", word)
     image_filename = f"{sanitized_word}_{timestamp.strftime('%Y%m%d%H%M%S')}.jpg"
-    image_url = None
+    image_url = f"{image_url}?{int(time.time())}" if image_url else None
 
     if image_path and os.path.exists(image_path):
         try:
@@ -222,4 +260,6 @@ def main_loop():
 if __name__ == "__main__":
     server_thread = threading.Thread(target=start_server, daemon=True)
     server_thread.start()
-    main_loop()
+    # Only run main_loop locally, not on Render
+    if os.environ.get('ENV') != 'production':
+        main_loop()

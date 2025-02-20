@@ -68,3 +68,10 @@
 
 **Example**: I ****** you are both familiar with this plan.
 ---
+## 2025-02-19 21:02:33 - base
+**Definition**: The **** is the bottom of something.
+
+![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/base_20250219210233.jpg)
+
+**Example**: The **** of the table has three legs.
+---

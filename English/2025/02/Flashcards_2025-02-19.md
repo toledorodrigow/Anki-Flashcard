@@ -96,3 +96,10 @@
 
 **Example**: Children who do not behave are a ****** to their parents.
 ---
+## 2025-02-19 21:10:57 - tip
+**Definition**: A *** is a pointed end of something.
+
+![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/tip_20250219211057.jpg)
+
+**Example**: The *** of his pen was very sharp.
+---

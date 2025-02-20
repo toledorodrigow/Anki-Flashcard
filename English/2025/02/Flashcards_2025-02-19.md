@@ -110,3 +110,10 @@
 
 **Example**: I am ******* against that.
 ---
+## 2025-02-19 21:55:27 - challenge
+**Definition**: A ********* is something difficult to complete.
+
+![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/challenge_20250219215527.jpg)
+
+**Example**: It was a ********* to climb to the top of the mountain.
+---

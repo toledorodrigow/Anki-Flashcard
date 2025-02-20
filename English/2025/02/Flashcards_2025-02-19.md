@@ -47,3 +47,10 @@
 
 **Example**: People who want good ****** should not smoke.
 ---
+## 2025-02-19 21:01:35 - fashionable
+**Definition**: Something *********** is what people like to wear and do now.
+
+![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/fashionable_20250219210135.jpg)
+
+**Example**: It is very *********** to wear a hat.
+---

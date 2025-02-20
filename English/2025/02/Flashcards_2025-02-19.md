@@ -75,3 +75,10 @@
 
 **Example**: The **** of the table has three legs.
 ---
+## 2025-02-19 21:08:30 - rush
+**Definition**: To **** is to go somewhere or do something very quickly.
+
+![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/rush_20250219210830.jpg)
+
+**Example**: Nancy ****ed to finish her homework.
+---

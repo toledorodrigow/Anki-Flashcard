@@ -124,3 +124,10 @@
 
 **Example**: The escalator is ******* than I thought.
 ---
+## 2025-02-19 21:55:56 - however
+**Definition**: However means despite or not being influenced by something.
+
+![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/however_20250219215556.jpg)
+
+**Example**: She is a great cook. However, she never had professional lessons.
+---

@@ -40,3 +40,10 @@
 
 **Example**: People who want good ****** should not smoke.
 ---
+## 2025-02-19 21:00:15 - health
+**Definition**: Health is the state of a person’s body.
+
+![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/health_20250219210015.jpg)
+
+**Example**: People who want good ****** should not smoke.
+---

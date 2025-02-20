@@ -89,3 +89,10 @@
 
 **Example**: I felt very ***** waiting to hear the result of the vote.
 ---
+## 2025-02-19 21:09:55 - burden
+**Definition**: A ****** is a serious or difficult responsibility.
+
+![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/burden_20250219210955.jpg)
+
+**Example**: Children who do not behave are a ****** to their parents.
+---

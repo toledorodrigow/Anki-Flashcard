@@ -82,3 +82,10 @@
 
 **Example**: Nancy ****ed to finish her homework.
 ---
+## 2025-02-19 21:09:19 - tense
+**Definition**: When you are *****, you are not comfortable and feel unhappy.
+
+![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/tense_20250219210919.jpg)
+
+**Example**: I felt very ***** waiting to hear the result of the vote.
+---

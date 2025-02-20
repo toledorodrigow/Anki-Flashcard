@@ -117,3 +117,10 @@
 
 **Example**: It was a ********* to climb to the top of the mountain.
 ---
+## 2025-02-19 21:55:48 - further
+**Definition**: Further means at or from a greater distance or time.
+
+![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/further_20250219215548.jpg)
+
+**Example**: The escalator is ******* than I thought.
+---

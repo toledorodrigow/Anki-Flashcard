@@ -110,21 +110,33 @@
                 fetchQuestions();
             }
         }
-
         async function fetchQuestions() {
             try {
                 const response = await fetch('/questions');
                 const questions = await response.json();
+                const historyContainer = document.getElementById('question-history');
+                historyContainer.innerHTML = '';
+                
                 questions.forEach(q => {
-                    if (!q.active) {
-                        addQuestionToHistory(q);
-                    }
+                    const div = document.createElement('div');
+                    div.className = 'past-question';
+                    div.innerHTML = `
+                        <div class="question-number">
+                            ${q.timestamp} - ${q.word}
+                        </div>
+                        <h2>${q.definition}</h2>
+                        ${q.image ? `<img src="${q.image}?${Date.now()}">` : ''}
+                        <p>${q.example}</p>
+                    `;
+                    historyContainer.appendChild(div);
                 });
             } catch (error) {
                 console.error('Error loading questions:', error);
             }
         }
-
+        // Add periodic refresh
+        setInterval(fetchQuestions, 30000); // Refresh every 30 seconds
+        setInterval(updateLeaderboard, 10000); // Refresh leaderboard every 10 seconds
         function createQuestionElement(question, isCurrent) {
             const div = document.createElement('div');
             div.className = isCurrent ? 'current-question' : 'past-question';

@@ -54,3 +54,10 @@
 
 **Example**: It is very *********** to wear a hat.
 ---
+## 2025-02-19 21:02:09 - among
+**Definition**: If you are ***** certain things, they are all around you.
+
+![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/among_20250219210209.jpg)
+
+**Example**: There was a red apple ***** the green ones.
+---

@@ -103,3 +103,10 @@
 
 **Example**: The *** of his pen was very sharp.
 ---
+## 2025-02-19 21:18:06 - totally
+**Definition**: If you ******* agree, you agree with everything just said.
+
+![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/totally_20250219211806.jpg)
+
+**Example**: I am ******* against that.
+---

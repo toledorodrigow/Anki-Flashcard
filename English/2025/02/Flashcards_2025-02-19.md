@@ -61,3 +61,10 @@
 
 **Example**: There was a red apple ***** the green ones.
 ---
+## 2025-02-19 21:02:25 - assume
+**Definition**: To ****** something is to think that it is true, even with no proof.
+
+![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/assume_20250219210225.jpg)
+
+**Example**: I ****** you are both familiar with this plan.
+---

@@ -33,3 +33,10 @@
 
 **Example**: The door was as **** as my arms.
 ---
+## 2025-02-26 19:42:26 - encourage
+**Definition**: To ********* people is to make them want to do something.
+
+![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/encourage_20250226194226.jpg)
+
+**Example**: My football coach will ********* us when we are losing.
+---

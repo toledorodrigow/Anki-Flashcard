@@ -33,3 +33,10 @@
 
 **Example**: She likes to read fashion ********s.
 ---
+## 2025-02-25 21:39:26 - instrument
+**Definition**: An ********** is something designed to do a certain task like play music.
+
+![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/instrument_20250225213926.jpg)
+
+**Example**: My favorite musical ********** is the piano.
+---

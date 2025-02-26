@@ -180,3 +180,10 @@
 
 **Example**: His afternoon work ******* was to paint the room green.
 ---
+## 2025-02-25 22:09:12 - project
+**Definition**: A ******* is a type of work that you do for school or a job.
+
+![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/project_20250225220912.jpg)
+
+**Example**: His afternoon work ******* was to paint the room green.
+---

@@ -166,3 +166,10 @@
 
 **Example**: I bought warm ******* for the cold winter.
 ---
+## 2025-02-26 20:22:47 - thin
+**Definition**: If someone or some****g is ****, they are not fat.
+
+![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/thin_20250226202247.jpg)
+
+**Example**: The man was **** because he didn’t eat much.
+---

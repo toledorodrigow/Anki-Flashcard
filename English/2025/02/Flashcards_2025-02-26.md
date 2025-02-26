@@ -82,3 +82,10 @@
 
 **Example**: His work got the ********* of two of his co-workers.
 ---
+## 2025-02-26 19:47:17 - content
+**Definition**: To be ******* is to be happy and not want more.
+
+![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/content_20250226194717.jpg)
+
+**Example**: The baby looked very ******* sitting on the floor.
+---

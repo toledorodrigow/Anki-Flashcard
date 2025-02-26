@@ -117,3 +117,10 @@
 
 **Example**: Henry could not ********** the message.
 ---
+## 2025-02-26 19:50:42 - experiment
+**Definition**: An ********** is a test that you do to see what will happen.
+
+![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/experiment_20250226195042.jpg)
+
+**Example**: The student did an ********** in science class.
+---

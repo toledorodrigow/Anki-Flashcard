@@ -124,3 +124,10 @@
 
 **Example**: The student did an ********** in science class.
 ---
+## 2025-02-26 20:11:31 - glass
+**Definition**: Glass is a transparent, breakable material.
+
+![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/glass_20250226201131.jpg)
+
+**Example**: Windows are made of *****.
+---

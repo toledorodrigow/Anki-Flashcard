@@ -131,3 +131,10 @@
 
 **Example**: Windows are made of *****.
 ---
+## 2025-02-26 20:11:54 - personality
+**Definition**: Your *********** is what you are like and how you behave.
+
+![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/personality_20250226201154.jpg)
+
+**Example**: John has a bad ***********.
+---

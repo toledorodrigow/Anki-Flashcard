@@ -47,3 +47,10 @@
 
 **Example**: I *********d an old friend from many years ago.
 ---
+## 2025-02-26 19:43:26 - recognize
+**Definition**: To ********* something is to know it because you have seen it before.
+
+![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/recognize_20250226194326.jpg)
+
+**Example**: I *********d an old friend from many years ago.
+---

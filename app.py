@@ -9,7 +9,7 @@ from flask import Flask, send_from_directory, jsonify
 from flask_socketio import SocketIO
 import threading
 from collections import defaultdict
-
+import json
 load_dotenv()
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN_github")
 REPO_OWNER = os.getenv("GITHUB_USERNAME")
@@ -22,6 +22,7 @@ app = Flask(__name__)
 socketio = SocketIO(app, cors_allowed_origins="*", engineio_logger=True)  # Enable logging
 
 questions = []
+historical_loaded = False
 active_question = None
 scores = defaultdict(int)
 question_counter = 0
@@ -201,7 +202,16 @@ def handle_answer(data):
 
 def start_server():
     port = int(os.environ.get("PORT", 5000))
-    socketio.run(app, host='0.0.0.0', port=port, debug=False)
+    
+    # Use eventlet for production if available
+    try:
+        import eventlet
+        eventlet.monkey_patch()
+        socketio.run(app, host='0.0.0.0', port=port, debug=False, 
+                   log_output=True, use_reloader=False)
+    except ImportError:
+        # Fallback for local development
+        socketio.run(app, host='0.0.0.0', port=port, debug=False)
 
 def main_loop():
     last_card_id = None
@@ -236,6 +246,89 @@ def schedule_content_refresh():
             socketio.emit('content_refresh')
     
     threading.Thread(target=refresh_job, daemon=True).start()
+
+def parse_markdown_content(content):
+    entries = []
+    current_entry = {}
+    image_url = None
+    example = None
+    
+    for line in content.split('\n'):
+        if line.startswith('## '):
+            if current_entry:
+                entries.append(current_entry)
+            timestamp_part, word = line[3:].split(' - ')
+            current_entry = {
+                'timestamp': datetime.strptime(timestamp_part.strip(), "%Y-%m-%d %H:%M:%S"),
+                'word': word.strip(),
+                'image': None,
+                'example': None,
+                'definition': None
+            }
+        elif line.startswith('**Definition**: '):
+            current_entry['definition'] = line[len('**Definition**: '):].strip()
+        elif line.startswith('![Image]('):
+            current_entry['image'] = line.split('(')[1].split(')')[0].strip()
+        elif line.startswith('**Example**: '):
+            current_entry['example'] = line[len('**Example**: '):].strip()
+    
+    if current_entry:
+        entries.append(current_entry)
+    return entries
+
+def load_historical_questions():
+    global historical_loaded, questions
+    if historical_loaded:
+        return
+    
+    try:
+        # Get repository structure
+        url = f"https://api.github.com/repos/{REPO_OWNER}/{REPO_NAME}/contents/English"
+        response = requests.get(url, headers=headers)
+        if response.status_code == 200:
+            years = [item['name'] for item in response.json() if item['type'] == 'dir']
+            
+            for year in years:
+                months_url = f"https://api.github.com/repos/{REPO_OWNER}/{REPO_NAME}/contents/English/{year}"
+                months_resp = requests.get(months_url, headers=headers)
+                if months_resp.status_code == 200:
+                    months = [item['name'] for item in months_resp.json() if item['type'] == 'dir']
+                    
+                    for month in months:
+                        files_url = f"https://api.github.com/repos/{REPO_OWNER}/{REPO_NAME}/contents/English/{year}/{month}"
+                        files_resp = requests.get(files_url, headers=headers)
+                        if files_resp.status_code == 200:
+                            md_files = [item for item in files_resp.json() 
+                                      if item['name'].startswith('Flashcards_') and item['name'].endswith('.md')]
+                            
+                            for md_file in md_files:
+                                file_content = requests.get(md_file['download_url'], headers=headers).text
+                                entries = parse_markdown_content(file_content)
+                                
+                                for entry in entries:
+                                    question_id = f"hist_{entry['timestamp'].timestamp()}"
+                                    questions.append({
+                                        'id': question_id,
+                                        'number': len(questions) + 1,
+                                        'word': entry['word'],
+                                        'definition': entry['definition'],
+                                        'example': entry['example'],
+                                        'image': entry['image'],
+                                        'correct_answer': re.sub(r"[^a-zA-Z0-9]", "", entry['word']).lower(),
+                                        'end_time': None,
+                                        'answered_users': set(),
+                                        'active': False
+                                    })
+        
+        # Keep only the last 100 historical entries
+        questions = sorted(questions, key=lambda x: x['timestamp'], reverse=True)[:100]
+        historical_loaded = True
+        print(f"Loaded {len(questions)} historical questions from GitHub")
+    except Exception as e:
+        print(f"Error loading historical questions: {e}")
+
+# Add this right before starting the server
+load_historical_questions()
 
 # Start this after server initialization
 schedule_content_refresh()

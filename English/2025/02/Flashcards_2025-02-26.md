@@ -103,3 +103,10 @@
 
 **Example**: He is fat. Therefore, he should go on a diet.
 ---
+## 2025-02-26 19:48:31 - customer
+**Definition**: A ******** is a person who buys something at a store.
+
+![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/customer_20250226194831.jpg)
+
+**Example**: The ******** put a few items in a bag.
+---

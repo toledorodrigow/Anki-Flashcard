@@ -54,3 +54,10 @@
 
 **Example**: I *********d an old friend from many years ago.
 ---
+## 2025-02-26 19:43:32 - fortunate
+**Definition**: If you are *********, you are lucky.
+
+![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/fortunate_20250226194332.jpg)
+
+**Example**: I was ********* to get a seat.
+---

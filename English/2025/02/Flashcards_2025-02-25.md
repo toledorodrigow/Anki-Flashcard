@@ -26,3 +26,10 @@
 
 **Example**: The men ******** business cards.
 ---
+## 2025-02-25 21:32:19 - magazine
+**Definition**: A ******** is a regular publication with news, stories, and articles.
+
+![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/magazine_20250225213219.jpg)
+
+**Example**: She likes to read fashion ********s.
+---

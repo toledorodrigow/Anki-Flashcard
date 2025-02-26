@@ -159,3 +159,10 @@
 
 **Example**: I bought warm ******* for the cold winter.
 ---
+## 2025-02-26 20:20:29 - clothes
+**Definition**: Clothes are what people wear to cover their bodies.
+
+![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/clothes_20250226202029.jpg)
+
+**Example**: I bought warm ******* for the cold winter.
+---

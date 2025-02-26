@@ -110,3 +110,10 @@
 
 **Example**: The ******** put a few items in a bag.
 ---
+## 2025-02-26 19:49:39 - understand
+**Definition**: To ********** something you need to know what it means.
+
+![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/understand_20250226194939.jpg)
+
+**Example**: Henry could not ********** the message.
+---

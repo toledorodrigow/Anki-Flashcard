@@ -22,7 +22,7 @@ REPO_OWNER = os.getenv("GITHUB_USERNAME")
 REPO_NAME = "Anki-Flashcard"
 BRANCH = "main"
 IMAGE_DIR = "English/images"
-CLIENT_API_KEY = os.getenv("CLIENT_API_KEY")
+SYNC_SECRET = os.getenv("SYNC_SECRET")
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
 
 questions = []
@@ -59,7 +59,7 @@ def get_scores():
 @app.route('/api/card', methods=['POST'])
 def receive_card():
     auth_header = requests.headers.get('Authorization')
-    if auth_header != f"Bearer {CLIENT_API_KEY}":
+    if auth_header != f"Bearer {SYNC_SECRET}":
         return jsonify({"error": "Unauthorized"}), 401
     
     card_data = requests.json

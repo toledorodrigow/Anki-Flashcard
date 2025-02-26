@@ -203,31 +203,28 @@
             fetchQuestions(); // Refresh the history with updated questions
         });
 
-        // Update the timer function
         function startTimer(endTime, timeout) {
             const timerBar = document.getElementById('timer-bar');
             const timeText = document.getElementById('time-text');
             const start = Date.now();
             const duration = timeout * 1000;
-            let animationFrame;
 
             function update() {
                 const elapsed = Date.now() - start;
                 const remaining = duration - elapsed;
                 const seconds = Math.ceil(remaining / 1000);
                 
-                timerBar.style.width = `${Math.max(0, (remaining / duration) * 100)}%`;
-                timeText.textContent = `${Math.max(0, seconds)}s`;
+                timerBar.style.width = `${(remaining / duration) * 100}%`;
+                timeText.textContent = `${seconds}s`;
                 
                 if (remaining > 0) {
-                    animationFrame = requestAnimationFrame(update);
+                    requestAnimationFrame(update);
                 } else {
                     timeText.textContent = "Time's up!";
-                    cancelAnimationFrame(animationFrame);
                     document.getElementById('submit-btn').disabled = true;
                 }
             }
-            animationFrame = requestAnimationFrame(update);
+            requestAnimationFrame(update);
         }
 
         socket.on('answer_result', (data) => {
@@ -254,28 +251,16 @@
                 console.error('Leaderboard error:', error);
             }
         }
-        // Add question_update handler
-        socket.on('question_update', (data) => {
-            const questionDiv = document.getElementById(`q-${data.question_id}`);
-            if (questionDiv) {
-                questionDiv.querySelector('.question-number').textContent += ' (Ended)';
-            }
-        });
+
         socket.on('question_end', (data) => {
             const questionDiv = document.getElementById(`q-${data.question_id}`);
             if (questionDiv) {
                 questionDiv.querySelector('.timer').remove();
-                questionDiv.querySelector('input').disabled = true;
-                questionDiv.querySelector('button').disabled = true;
                 addQuestionToHistory({
                     ...data,
                     answered: true
                 });
             }
-            // Reset the current question display
-            document.getElementById('question-box').innerHTML = `
-                <div class="question-number">Waiting for next question...</div>
-            `;
         });
     </script>
 </body>

@@ -5,6 +5,8 @@ from collections import defaultdict
 from dotenv import load_dotenv
 import time
 import re
+import threading
+
 load_dotenv()
 
 app = Flask(__name__)
@@ -30,7 +32,16 @@ def get_questions():
         'example': q['example'],
         'image': q['image']
     } for q in reversed(questions)])
-
+def mark_question_inactive(question_id):
+    global questions
+    for q in questions:
+        if q['id'] == question_id:
+            q['active'] = False
+    socketio.emit('question_update', {'question_id': question_id, 'active': False})
+def question_timer(question_id, duration):
+    time.sleep(duration)
+    mark_question_inactive(question_id)
+    socketio.emit('question_end', {'question_id': question_id})
 @app.route('/scores')
 def get_scores():
     return jsonify(sorted(scores.items(), key=lambda x: x[1], reverse=True)[:10])
@@ -39,6 +50,10 @@ def get_scores():
 def receive_new_question():
     global question_counter, active_question
     data = request.json
+    
+    # Check if previous question was properly resolved
+    if active_question and active_question['active']:
+        mark_question_inactive(active_question['id'])
     
     question_counter += 1
     question_id = f"{question_counter}_{int(time.time())}"
@@ -53,17 +68,16 @@ def receive_new_question():
         'correct_answer': data['correct_answer'],
         'end_time': time.time() + question_timeout,
         'answered_users': set(),
-        'active': True
+        'active': True,
+        'correctly_answered': False  # Add this field
     }
-
-    for q in questions:
-        q['active'] = False
 
     questions.append(new_question)
     if len(questions) > 50:
         questions.pop(0)
 
     active_question = new_question
+    threading.Thread(target=question_timer, args=(question_id, question_timeout)).start()
     socketio.emit('new_question', {
         'id': question_id,
         'number': question_counter,
@@ -96,6 +110,7 @@ def handle_answer(data):
     if correct and is_current and question['active']:
         scores[username] += 1
         scored = True
+        question['correctly_answered'] = True  # Add this line
 
     question['answered_users'].add(username)
 
@@ -105,6 +120,19 @@ def handle_answer(data):
         'scored': scored,
         'question_id': question_id
     })
-
+@app.route('/api/status')
+def get_status():
+    global active_question
+    if active_question and active_question.get('active'):
+        return jsonify({
+            'active': True,
+            'answered': active_question.get('correctly_answered', False),
+            'timeout': time.time() > active_question.get('end_time', 0)
+        })
+    return jsonify({
+        'active': False,
+        'answered': False,
+        'timeout': False
+    })
 if __name__ == '__main__':
     socketio.run(app)

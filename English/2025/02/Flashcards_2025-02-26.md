@@ -61,3 +61,10 @@
 
 **Example**: I was ********* to get a seat.
 ---
+## 2025-02-26 19:43:41 - medicine
+**Definition**: Medicine is something you take to feel better or treat an illness.
+
+![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/medicine_20250226194341.jpg)
+
+**Example**: The doctor gave me ******** for my cold.
+---

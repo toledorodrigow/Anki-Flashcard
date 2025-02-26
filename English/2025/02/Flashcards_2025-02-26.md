@@ -145,3 +145,10 @@
 
 **Example**: The patient’s ********* was very good.
 ---
+## 2025-02-26 20:14:03 - quality
+**Definition**: The ******* of something is how good it is.
+
+![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/quality_20250226201403.jpg)
+
+**Example**: The ******* of his car is very good.
+---

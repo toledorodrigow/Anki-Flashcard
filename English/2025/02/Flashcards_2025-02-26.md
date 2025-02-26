@@ -26,3 +26,10 @@
 
 **Example**: The fireworks made the night sky look so *******.
 ---
+## 2025-02-26 18:42:23 - wide
+**Definition**: If something is ****, it is large from side to side.
+
+![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/wide_20250226184223.jpg)
+
+**Example**: The door was as **** as my arms.
+---

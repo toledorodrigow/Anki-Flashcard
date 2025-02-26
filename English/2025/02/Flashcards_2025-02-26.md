@@ -96,3 +96,10 @@
 
 **Example**: My boss *****ed at me because I was late for work.
 ---
+## 2025-02-26 19:48:16 - therefore
+**Definition**: Therefore means for this reason.
+
+![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/therefore_20250226194816.jpg)
+
+**Example**: He is fat. Therefore, he should go on a diet.
+---

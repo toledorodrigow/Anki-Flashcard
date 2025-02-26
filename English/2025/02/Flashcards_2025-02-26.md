@@ -152,3 +152,10 @@
 
 **Example**: The ******* of his car is very good.
 ---
+## 2025-02-26 20:15:27 - clothes
+**Definition**: Clothes are what people wear to cover their bodies.
+
+![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/clothes_20250226201527.jpg)
+
+**Example**: I bought warm ******* for the cold winter.
+---

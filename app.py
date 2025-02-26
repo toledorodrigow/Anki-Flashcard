@@ -137,11 +137,10 @@ def handle_answer(data):
         'question_id': question_id
     })
 
-def upload_to_github(image_data, filename, md_content):
+def upload_to_github(image_b64, filename, md_content):
     # Upload image
     image_url = None
-    if image_data:
-        image_b64 = base64.b64encode(image_data).decode("utf-8")
+    if image_b64:
         image_res = requests.put(
             f"https://api.github.com/repos/{REPO_OWNER}/{REPO_NAME}/contents/{IMAGE_DIR}/{filename}",
             headers=headers,

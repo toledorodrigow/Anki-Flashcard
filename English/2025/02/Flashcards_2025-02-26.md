@@ -138,3 +138,10 @@
 
 **Example**: John has a bad ***********.
 ---
+## 2025-02-26 20:13:17 - condition
+**Definition**: The ********* of someone or something is the state that they are in.
+
+![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/condition_20250226201317.jpg)
+
+**Example**: The patient’s ********* was very good.
+---

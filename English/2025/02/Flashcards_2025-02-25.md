@@ -411,3 +411,10 @@
 
 **Example**: The glass was *******ed.
 ---
+## 2025-02-25 22:12:54 - print
+**Definition**: To ***** something is to put it onto paper.
+
+![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/print_20250225221254.jpg)
+
+**Example**: Make sure that you ***** your name clearly.
+---

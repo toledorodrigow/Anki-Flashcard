@@ -40,3 +40,10 @@
 
 **Example**: My football coach will ********* us when we are losing.
 ---
+## 2025-02-26 19:42:57 - recognize
+**Definition**: To ********* something is to know it because you have seen it before.
+
+![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/recognize_20250226194257.jpg)
+
+**Example**: I *********d an old friend from many years ago.
+---

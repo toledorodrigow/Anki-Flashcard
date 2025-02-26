@@ -68,3 +68,10 @@
 
 **Example**: The doctor gave me ******** for my cold.
 ---
+## 2025-02-26 19:43:46 - though
+**Definition**: Though is used when one idea makes another seem surprising.
+
+![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/though_20250226194346.jpg)
+
+**Example**: Though he was overweight, he liked to be active.
+---

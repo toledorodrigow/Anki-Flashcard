@@ -96,7 +96,21 @@
     <div id="leaderboard"></div>
 
     <script>
-        const socket = io();
+        // Replace the socket initialization with:
+        const socket = io(window.location.origin, {
+            reconnection: true,
+            reconnectionDelay: 1000,
+            reconnectionAttempts: Infinity
+        });
+        
+        // Add this to handle initial load
+        window.addEventListener('load', () => {
+            updateLeaderboard();
+            fetchQuestions();
+            
+            // Check if we're connected to the right server
+            console.log('Connected to:', window.location.origin);
+        });
         let currentUsername = null;
         let activeQuestionId = null;
 
@@ -110,33 +124,24 @@
                 fetchQuestions();
             }
         }
+
+        // Modify fetchQuestions to handle errors
         async function fetchQuestions() {
             try {
-                const response = await fetch('/questions');
-                const questions = await response.json();
-                const historyContainer = document.getElementById('question-history');
-                historyContainer.innerHTML = '';
-                
-                questions.forEach(q => {
-                    const div = document.createElement('div');
-                    div.className = 'past-question';
-                    div.innerHTML = `
-                        <div class="question-number">
-                            ${q.timestamp} - ${q.word}
-                        </div>
-                        <h2>${q.definition}</h2>
-                        ${q.image ? `<img src="${q.image}?${Date.now()}">` : ''}
-                        <p>${q.example}</p>
-                    `;
-                    historyContainer.appendChild(div);
-                });
+            const response = await fetch('/questions');
+            if (!response.ok) throw new Error('Network error');
+            const questions = await response.json();
+            questions.forEach(q => {
+                if (!document.getElementById(`q-${q.id}`)) {
+                addQuestionToHistory(q);
+                }
+            });
             } catch (error) {
-                console.error('Error loading questions:', error);
+            console.error('Error loading questions:', error);
+            setTimeout(fetchQuestions, 5000); // Retry after 5 seconds
             }
         }
-        // Add periodic refresh
-        setInterval(fetchQuestions, 30000); // Refresh every 30 seconds
-        setInterval(updateLeaderboard, 10000); // Refresh leaderboard every 10 seconds
+
         function createQuestionElement(question, isCurrent) {
             const div = document.createElement('div');
             div.className = isCurrent ? 'current-question' : 'past-question';
@@ -201,7 +206,11 @@
                 input.disabled = true;
             }
         }
-
+        socket.on('content_refresh', () => {
+            console.log('Refreshing content from GitHub...');
+            fetchQuestions();
+            updateLeaderboard();
+          });
         socket.on('new_question', (data) => {
             activeQuestionId = data.id;
             const questionBox = document.getElementById('question-box');

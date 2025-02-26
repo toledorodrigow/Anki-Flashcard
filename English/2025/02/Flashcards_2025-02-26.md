@@ -12,3 +12,10 @@
 
 **Example**: I could not ****** my keys in the house.
 ---
+## 2025-02-26 18:41:43 - locate
+**Definition**: To ****** something is to find it.
+
+![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/locate_20250226184143.jpg)
+
+**Example**: I could not ****** my keys in the house.
+---

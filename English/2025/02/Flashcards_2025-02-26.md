@@ -5,3 +5,10 @@
 
 **Example**: Make sure that you ***** your name clearly.
 ---
+## 2025-02-26 18:40:53 - locate
+**Definition**: To ****** something is to find it.
+
+![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/locate_20250226184053.jpg)
+
+**Example**: I could not ****** my keys in the house.
+---

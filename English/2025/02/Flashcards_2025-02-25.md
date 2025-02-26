@@ -19,3 +19,10 @@
 
 **Example**: A hot iron can cause great **** if you are not careful.
 ---
+## 2025-02-25 21:31:40 - exchange
+**Definition**: To ******** is to give one thing in return for another.
+
+![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/exchange_20250225213140.jpg)
+
+**Example**: The men ******** business cards.
+---

@@ -19,3 +19,10 @@
 
 **Example**: I could not ****** my keys in the house.
 ---
+## 2025-02-26 18:42:04 - magical
+**Definition**: Magical describes a quality that makes someone or something special.
+
+![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/magical_20250226184204.jpg)
+
+**Example**: The fireworks made the night sky look so *******.
+---

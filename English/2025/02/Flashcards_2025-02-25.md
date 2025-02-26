@@ -40,3 +40,10 @@
 
 **Example**: My favorite musical ********** is the piano.
 ---
+## 2025-02-25 21:39:55 - project
+**Definition**: A ******* is a type of work that you do for school or a job.
+
+![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/project_20250225213955.jpg)
+
+**Example**: His afternoon work ******* was to paint the room green.
+---

@@ -89,3 +89,10 @@
 
 **Example**: The baby looked very ******* sitting on the floor.
 ---
+## 2025-02-26 19:47:45 - shout
+**Definition**: To ***** is to say something loudly.
+
+![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/shout_20250226194745.jpg)
+
+**Example**: My boss *****ed at me because I was late for work.
+---

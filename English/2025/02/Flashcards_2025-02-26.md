@@ -75,3 +75,10 @@
 
 **Example**: Though he was overweight, he liked to be active.
 ---
+## 2025-02-26 19:46:51 - attention
+**Definition**: Attention is the notice, thought, or consideration of someone.
+
+![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/attention_20250226194651.jpg)
+
+**Example**: His work got the ********* of two of his co-workers.
+---

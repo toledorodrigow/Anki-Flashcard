@@ -404,3 +404,10 @@
 
 **Example**: His afternoon work ******* was to paint the room green.
 ---
+## 2025-02-25 22:12:25 - destroy
+**Definition**: To ******* means to damage something so badly that it cannot be used.
+
+![Image](https://raw.githubusercontent.com/toledorodrigow/Anki-Flashcard/main/English/images/destroy_20250225221225.jpg)
+
+**Example**: The glass was *******ed.
+---
